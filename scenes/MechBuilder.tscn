@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cvudbfcyyqofh"]
+
+[node name="MechBuilder" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PartsSelection" type="ItemList" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="SubViewport" type="SubViewport" parent="HBoxContainer"]
+
+[node name="Inspector" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2

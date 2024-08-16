@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cldj0p5kdkmeo"]
+
+[ext_resource type="Script" path="res://scripts/mech.gd" id="1_5c8t4"]
+
+[node name="Mech" type="Node2D"]
+script = ExtResource("1_5c8t4")
+
+[node name="Frame" type="Node2D" parent="."]
+
+[node name="PowerSupply" type="Node2D" parent="."]
+
+[node name="Hydraulics" type="Node2D" parent="."]
+
+[node name="Weapons" type="Node2D" parent="."]
+
+[node name="Armor" type="Node2D" parent="."]

@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://brdfchlt7du5a"]
+
+[ext_resource type="Script" path="res://scripts/Pause.gd" id="1_qun67"]
+
+[node name="Pause" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_qun67")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="SaveGame" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="LoadGame" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Options" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
